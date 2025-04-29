@@ -21,7 +21,7 @@ class errors(commands.Cog):
         command = self.bot.get_command(ctx.command.name)
         if isinstance(error, commands.errors.CommandOnCooldown):
             msg = eremb.copy()
-            msg.description = error
+            msg.description = str(error)
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.MissingRequiredArgument):
             msg = eremb.copy()

@@ -6,7 +6,7 @@ scemb = discord.Embed(
     colour=discord.Colour.green()
 )
 eremb = discord.Embed(
-    title='❌ Error❌',
+    title='❌ Error ❌',
     colour=discord.Colour.red()
 )
 
@@ -54,11 +54,10 @@ class main(commands.Cog):
             command = self.bot.get_command(command_name)
             if command and not command.hidden:
                 msg = discord.Embed(
-                    title=f'{command_name.capitalize()}',
                     description=f'Argument:\n`[]` - optional\n`<>` - required',
                     colour=discord.Colour.blue()
                 )
-                msg.add_field(name=command.name, value=f'{command.help}\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`', inline=False)
+                msg.add_field(name=command.name.capitalize(), value=f'{command.help}\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`', inline=False)
                 await ctx.reply(embed=msg)
             else:
                 msg = eremb.copy()
@@ -71,7 +70,7 @@ class main(commands.Cog):
                 colour=discord.Colour.blue()
             )
             for command in self.bot.commands:
-                msg.add_field(name=command.name, value=f'command.help\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`', inline=False)
+                msg.add_field(name=command.name.capitalize(), value=f'{command.help}\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`', inline=False)
 
             await ctx.reply(embed=msg)
             
