@@ -6,7 +6,8 @@ import os
 load_cogs = [
     'cogs.commands.roblox',
     'cogs.commands.main',
-    'cogs.events.errors'
+    'cogs.events.errors',
+    'cogs.commands.moderation'
 ]
 
 def main():

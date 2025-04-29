@@ -12,23 +12,24 @@ eremb = discord.Embed(
 
 
 
-class main(commands.Cog):
+class errors(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         
     @commands.Cog.listener()
-    async def on_command_error(self, error, ctx: commands.Context):
+    async def on_command_error(self, ctx: commands.Context, error):
+        command = self.bot.get_command(ctx.command.name)
         if isinstance(error, commands.errors.CommandOnCooldown):
             msg = eremb.copy()
             msg.description = error
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.MissingRequiredArgument):
             msg = eremb.copy()
-            msg.description = 'Missing required argument. !help <command>'
+            msg.description = f'Missing required argument.\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`'
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.MissingPermissions):
             msg = eremb.copy()
-            msg.description = 'You dont have permissions to eexecute this command.'
+            msg.description = 'You dont have permissions to execute this command.'
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.BotMissingPermissions):
             msg = eremb.copy()
@@ -47,4 +48,4 @@ class main(commands.Cog):
             
             
 async def setup(bot):
-    await bot.add_cog(main(bot))
+    await bot.add_cog(errors(bot))
