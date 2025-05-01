@@ -10,23 +10,39 @@ load_cogs = [
     'cogs.commands.moderation'
 ]
 
+scemb = discord.Embed(
+    title='✅ Success ✅',
+    colour=discord.Colour.green()
+)
+eremb = discord.Embed(
+    title='❌ Error ❌',
+    colour=discord.Colour.red()
+)
+
 def main():
     intents = discord.Intents.all()
     intents.message_content = True
     bot = commands.Bot('!', help_command=None, intents=intents, case_insensitive=True)
     
+    # ⁡⁢⁣⁣𝗼𝘄𝗻𝗲𝗿 𝘀𝘆𝗻𝗰 𝗰𝗼𝗺𝗺𝗮𝗻𝗱⁡
     @bot.command(name='sync', hidden=True)
     @commands.is_owner()
     async def sync(ctx, id = None):
         if id:
             await bot.tree.sync(guild=discord.Object(id))
             print('Syncing')
-            await ctx.reply(f'Synced the {id}', ephemeral=True)
+            msg = scemb.copy()
+            msg.description = f'Synced the {id}'
+            await ctx.reply(embed=msg, ephemeral=True)
         else:
             await bot.tree.sync()
             print('Global Syncing ~ 1 hour')
-            await ctx.reply(f'Syncing | ~ 1 hour', ephemeral=True)
+            msg = scemb.copy()
+            msg.description = f'Syncing | ~ 1 hour'
+            await ctx.reply(embed=msg, ephemeral=True)
+
     
+    # ⁡⁢⁣⁣𝗼𝗻_𝗿𝗲𝗮𝗱𝘆⁡
     @bot.event
     async def on_ready():
         print(f'Logged as {bot.user.name}')

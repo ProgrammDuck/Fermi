@@ -1,5 +1,9 @@
 import discord
 from discord.ext import commands
+from discord.ui import Button, View
+import asyncio
+import math
+import random
 
 scemb = discord.Embed(
     title='✅ Success ✅',
@@ -64,16 +68,120 @@ class main(commands.Cog):
                 msg.description = f'Command `{command_name}` not found.'
                 await ctx.reply(embed=msg)
         else:
-            msg = discord.Embed(
-                title='Available Commands',
-                description=f'Use `{self.bot.command_prefix}` as the prefix for all commands.',
-                colour=discord.Colour.blue()
-            )
-            for command in self.bot.commands:
-                msg.add_field(name=command.name.capitalize(), value=f'{command.help}\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`', inline=False)
+            commands_list = [command for command in self.bot.commands if not command.hidden]
+            if not commands_list:
+                msg = eremb.copy()
+                msg.description = 'No commands available.'
+                await ctx.reply(embed=msg)
+                return
 
+            commands_per_pages = 5
+            
+            pages = []
+            for i in range(0, len(commands_list), commands_per_pages):
+                page = discord.Embed(
+                    title='Available Commands',
+                    description=f'Use `{self.bot.command_prefix}` as the prefix for all commands.\nPage {len(pages) + 1}/{math.ceil(len(commands_list) / commands_per_pages)}\n\nArgument:\n`[]` - optional\n`<>` - required\n',
+                    colour=discord.Colour.blue()
+                )
+                
+                for command in commands_list[i:i+commands_per_pages]:
+                    page.add_field(name=command.name.capitalize(), value=f'{command.help}\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`', inline=False)
+                pages.append(page)
+
+            current_page = 0
+
+            class HelpView(View):
+                def __init__(self, pages, current_page):
+                    super().__init__()
+                    self.pages = pages
+                    self.current_page = current_page
+
+                @discord.ui.button(label='Previous', style=discord.ButtonStyle.primary)
+                async def previous(self, interaction: discord.Interaction, button: Button):
+                    if self.current_page > 0 and self.current_page < (math.ceil(len(commands_list) / commands_per_pages)):
+                        self.current_page -= 1
+                        await interaction.response.edit_message(embed=self.pages[self.current_page])
+                    else:
+                        msg = eremb.copy()
+                        msg.description = 'This is first page'
+                        await ctx.send(embed=msg, delete_after=2)
+                        await interaction.response.defer()
+
+                @discord.ui.button(label='Next', style=discord.ButtonStyle.primary)
+                async def next(self, interaction: discord.Interaction, button: Button):
+                    if self.current_page < len(self.pages) - 1:
+                        self.current_page += 1
+                        await interaction.response.edit_message(embed=self.pages[self.current_page])
+                    else:
+                        msg = eremb.copy()
+                        msg.description = 'This is last page'
+                        await ctx.send(embed=msg, delete_after=2)
+                        await interaction.response.defer()
+
+            view = HelpView(pages, current_page)
+            await ctx.reply(embed=pages[current_page], view=view)
+
+    @commands.hybrid_command('random', help='Gets random number of your arguments.')
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def random(self, ctx, number_1, number_2):
+        if number_1 >= number_2:
+            msg = eremb.copy()
+            msg.description = 'Number 1 need low of number 2'
             await ctx.reply(embed=msg)
             
+        try:
+            number_1 = int(number_1)
+            number_2 = int(number_2)
+        except ValueError:
+            msg = eremb.copy()
+            msg.description = 'You need input number!'
+            await ctx.reply(embed=msg)
+            return
+
+        value = random.randint(number_1, number_2)
+
+        msg = scemb.copy()
+        msg.description = f'Your number is **{value}**'
+        await ctx.reply(embed=msg)
+        
+    @commands.hybrid_command('magicball', help='Return random answer to your quesion.')
+    @commands.cooldown(1, 5, commands.BucketType.user)
+    async def magicball(self, ctx, question):
+        yes = discord.Embed(
+            title='I think...',
+            description='Yes! Without reservations.',
+            colour=discord.Colour.blurple()
+        )
+        
+        yes1 = discord.Embed(
+            title='I think...',
+            description='Yes, partially.',
+            colour=discord.Colour.blurple()
+        )
+        
+        idk = discord.Embed(
+            title='I dont know.',
+            description='Ask at another time.',
+            colour=discord.Colour.blurple()
+        )
+        
+        no = discord.Embed(
+            title='I think...',
+            description='No! This is 100% the true answer.',
+            colour=discord.Colour.blurple()
+        )
+        
+        no1 = discord.Embed(
+            title='I think...',
+            description='No, partially.',
+            colour=discord.Colour.blurple()
+        )
+        
+        table = [yes, yes1, idk, no, no1]
+        answer = table[random.randint(0, len(table) - 1)]
+        
+        await ctx.reply(embed=answer)
     
 async def setup(bot):
     await bot.add_cog(main(bot))

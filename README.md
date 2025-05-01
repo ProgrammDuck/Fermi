@@ -1,4 +1,4 @@
-# Ppoker
+# Proker
 Discord python bot.
 
 ## Description
