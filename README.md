@@ -2,7 +2,7 @@
 Discord python bot.
 
 ## Description
-Proker is a Discord bot designed to facilitate poker games within Discord servers. It provides a variety of commands to manage games, handle player interactions, and ensure a smooth gaming experience.
+Proker is a private bot made just for fun. There are many cool commands here. There are also commands for moderation. The bot will be installed on a physical server on May 4, 2025. In the meantime, [invite this bot](https://discord.com/oauth2/authorize?client_id=1365631169219006544&permissions=8&integration_type=0&scope=bot) to your server!
 
 ## Project Structure
 
