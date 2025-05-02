@@ -3,6 +3,7 @@ from discord.ext import commands
 import json
 import aiohttp
 import os
+import logging
 
 scemb = discord.Embed(
     title='✅ Success ✅',
@@ -18,7 +19,7 @@ eremb = discord.Embed(
 class roblox(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
-        
+        self.logger = logging.getLogger(__name__)
     @commands.hybrid_command('send', help='Sending your message to roblox servers')
     @commands.cooldown(1, 5, commands.BucketType.guild)
     async def send(self, ctx, *, message):
@@ -41,7 +42,7 @@ class roblox(commands.Cog):
                 if responce.status == 200:
                     msg = scemb.copy()
                     msg.description = 'Your message delivered to roblox.'
-                    
+                    self.logger.info(f'{ctx.author.name} sended "{message}" to roblox')
                     await ctx.reply(embed=msg)
                 else:
                     msg = eremb.copy()

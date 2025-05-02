@@ -1,0 +1,370 @@
+\2025-05-02 11:13:26,863 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:13:26,864 - discord.client - INFO - logging in using static token
+2025-05-02 11:13:28,023 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d52572e12e1aa2e131c3966554a2296a).
+2025-05-02 11:13:30,037 - root - INFO - Logged as Proker
+2025-05-02 11:13:30,038 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:13:30,040 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:13:30,042 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:13:30,044 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:13:30,046 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:13:30,047 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:13:30,047 - root - INFO - ----------------------------
+2025-05-02 11:15:01,262 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:15:01,265 - discord.client - INFO - logging in using static token
+2025-05-02 11:15:02,233 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e84d5902132c951191b0562107882e0f).
+2025-05-02 11:15:04,260 - root - INFO - Logged as Proker
+2025-05-02 11:15:04,261 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:15:04,263 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:15:04,266 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:15:04,267 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:15:04,269 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:15:04,271 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:15:04,271 - root - INFO - ----------------------------
+2025-05-02 11:15:59,094 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:15:59,097 - discord.client - INFO - logging in using static token
+2025-05-02 11:16:00,070 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1eb0fb1eaeb24b46b7658d6bce28da6a).
+2025-05-02 11:16:02,084 - root - INFO - Logged as Proker
+2025-05-02 11:16:02,086 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:16:02,088 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:16:02,090 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:16:02,091 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:16:02,093 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:16:02,094 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:16:02,094 - root - INFO - ----------------------------
+2025-05-02 11:16:39,531 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:16:39,532 - discord.client - INFO - logging in using static token
+2025-05-02 11:16:40,519 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 30654daf8a31183fb8c110cf09b25e94).
+2025-05-02 11:16:42,535 - root - INFO - Logged as Proker
+2025-05-02 11:16:42,536 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:16:42,538 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:16:42,540 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:16:42,542 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:16:42,544 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:16:42,545 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:16:42,545 - root - INFO - ----------------------------
+2025-05-02 11:16:49,012 - cogs.commands.main_commands - INFO - [CLEAR] programmduck cleared 7 messages in 1260957515252760587
+2025-05-02 11:19:53,018 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:19:53,020 - discord.client - INFO - logging in using static token
+2025-05-02 11:19:54,033 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: fa29fbd6fa9855d954b303ff797301a7).
+2025-05-02 11:19:56,045 - root - INFO - Logged as Proker
+2025-05-02 11:19:56,046 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:19:56,049 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:19:56,051 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:19:56,052 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:19:56,057 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:19:56,058 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:19:56,059 - root - INFO - ----------------------------
+2025-05-02 11:20:54,791 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:20:54,792 - discord.client - WARNING - PyNaCl is not installed, voice will NOT be supported
+2025-05-02 11:20:54,793 - discord.client - INFO - logging in using static token
+2025-05-02 11:20:57,096 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 5d017c0e44f802927860339fb05d623c).
+2025-05-02 11:20:59,114 - root - INFO - Logged as Proker
+2025-05-02 11:20:59,115 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:20:59,117 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:20:59,119 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:20:59,120 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:20:59,122 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:20:59,124 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:20:59,124 - root - INFO - ----------------------------
+2025-05-02 11:21:28,637 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:21:28,639 - discord.client - INFO - logging in using static token
+2025-05-02 11:21:29,889 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 12ddccc11e9b91197fc047904462b8a1).
+2025-05-02 11:21:32,007 - root - INFO - Logged as Proker
+2025-05-02 11:21:32,008 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:21:32,010 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:21:32,012 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:21:32,013 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:21:32,016 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:21:32,017 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:21:32,017 - root - INFO - ----------------------------
+2025-05-02 11:22:07,272 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:22:07,275 - discord.client - INFO - logging in using static token
+2025-05-02 11:22:08,205 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6622ee42af7f35079262389222d96b69).
+2025-05-02 11:22:10,218 - root - INFO - Logged as Proker
+2025-05-02 11:22:10,219 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:22:10,260 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:22:10,265 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:22:10,266 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:22:10,270 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:22:10,273 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:22:10,273 - root - INFO - ----------------------------
+2025-05-02 11:23:10,781 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:23:10,783 - discord.client - INFO - logging in using static token
+2025-05-02 11:23:11,775 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1803ad5a9cfe99e1bfccf7c4f52b639e).
+2025-05-02 11:23:13,828 - root - INFO - Logged as Proker
+2025-05-02 11:23:13,829 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:23:13,831 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:23:13,836 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:23:13,837 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:23:13,839 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:23:13,840 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:23:13,841 - root - INFO - ----------------------------
+2025-05-02 11:23:17,234 - cogs.commands.main_commands - INFO - [ECHO] programmduck - f
+2025-05-02 11:24:57,650 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:24:57,653 - discord.client - INFO - logging in using static token
+2025-05-02 11:24:58,694 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d23bfb681f1b24bf488b826b30a6a64b).
+2025-05-02 11:25:00,708 - root - INFO - Logged as Proker
+2025-05-02 11:25:00,708 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:25:00,711 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:25:00,712 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:25:00,713 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:25:00,715 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:25:00,717 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:25:00,717 - root - INFO - ----------------------------
+2025-05-02 11:25:04,372 - cogs.commands.moderation - INFO - [KICK] Kicked the Ducker for None by programmduck
+2025-05-02 11:33:52,580 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:33:52,581 - discord.client - INFO - logging in using static token
+2025-05-02 11:33:53,545 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d8e642512fd05f3b3b99a6d3570c4f92).
+2025-05-02 11:33:55,560 - root - INFO - Logged as Proker
+2025-05-02 11:33:55,561 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:33:55,563 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:33:55,565 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:33:55,569 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:33:55,572 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:33:55,573 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:33:55,573 - root - INFO - ----------------------------
+2025-05-02 11:34:01,899 - discord.client - ERROR - Ignoring exception in on_command_error
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 481, in _run_event
+    await coro(*args, **kwargs)
+  File "c:\Users\Ilya\Desktop\folders\github\Proker\Code\cogs\events\errors.py", line 68, in on_command_error
+    self.logger.error(f"Unhandled error: {error}")
+    ^^^^^^^^^^^
+AttributeError: 'errors' object has no attribute 'logger'
+2025-05-02 11:34:42,230 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 11:34:42,232 - discord.client - INFO - logging in using static token
+2025-05-02 11:34:43,451 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7669ff2e9b267ca084ebd6b4dd8a894e).
+2025-05-02 11:34:45,459 - root - INFO - Logged as Proker
+2025-05-02 11:34:45,460 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 11:34:45,462 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 11:34:45,464 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 11:34:45,467 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 11:34:45,470 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 11:34:45,471 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 11:34:45,471 - root - INFO - ----------------------------
+2025-05-02 11:34:45,936 - cogs.events.errors - ERROR - Unhandled error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-05-02 11:58:46,011 - cogs.events.errors - ERROR - Unhandled error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-05-02 12:00:23,629 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:00:23,631 - discord.client - INFO - logging in using static token
+2025-05-02 12:00:24,731 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: cd92fa4e08e24daf7142244722e332b3).
+2025-05-02 12:00:26,756 - root - INFO - Logged as Proker
+2025-05-02 12:00:26,757 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:00:26,759 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:00:26,761 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:00:26,765 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:00:26,767 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:00:26,769 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:00:26,769 - root - INFO - ----------------------------
+2025-05-02 12:00:29,104 - cogs.events.errors - ERROR - Unhandled error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-05-02 12:02:20,667 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:02:20,669 - discord.client - INFO - logging in using static token
+2025-05-02 12:02:21,711 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: d4fd11bcc02d031195b5fc0e251d378c).
+2025-05-02 12:02:23,722 - root - INFO - Logged as Proker
+2025-05-02 12:02:23,723 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:02:23,725 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:02:23,727 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:02:23,731 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:02:23,733 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:02:23,734 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:02:23,734 - root - INFO - ----------------------------
+2025-05-02 12:02:26,539 - cogs.events.errors - ERROR - Unhandled error: Command raised an exception: Forbidden: 403 Forbidden (error code: 50013): Missing Permissions
+2025-05-02 12:07:18,726 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:07:18,729 - discord.client - INFO - logging in using static token
+2025-05-02 12:07:19,873 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 59b138e894a9bfcc3d91187abe16f31c).
+2025-05-02 12:07:21,880 - root - INFO - Logged as Proker
+2025-05-02 12:07:21,881 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:07:21,883 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:07:21,885 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:07:21,890 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:07:21,894 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:07:21,896 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:07:21,896 - root - INFO - ----------------------------
+2025-05-02 12:08:40,327 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:08:40,328 - discord.client - INFO - logging in using static token
+2025-05-02 12:08:41,487 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e5ee9dab078a9df772d3ee8757209029).
+2025-05-02 12:08:42,373 - discord.ext.commands.bot - ERROR - Ignoring exception in command None
+discord.ext.commands.errors.CommandNotFound: Command "kick" is not found
+2025-05-02 12:08:43,494 - root - INFO - Logged as Proker
+2025-05-02 12:08:43,495 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:08:43,497 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:08:43,499 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:08:43,503 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:08:43,505 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:08:43,506 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:08:43,506 - root - INFO - ----------------------------
+2025-05-02 12:14:42,110 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:14:42,112 - discord.client - INFO - logging in using static token
+2025-05-02 12:14:43,249 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e83a8fa0685d7a08646c1b5168a6146a).
+2025-05-02 12:14:45,260 - root - INFO - Logged as Proker
+2025-05-02 12:14:45,261 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:14:45,263 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:14:45,266 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:14:45,269 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:14:45,274 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:14:45,276 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:14:45,277 - root - INFO - ----------------------------
+2025-05-02 12:20:23,825 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:20:23,827 - discord.client - INFO - logging in using static token
+2025-05-02 12:20:24,879 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7e7123424d447e5f26b8131b09cf496a).
+2025-05-02 12:20:27,004 - root - INFO - Logged as Proker
+2025-05-02 12:20:27,005 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:20:27,007 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:20:27,009 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:20:27,014 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:20:27,016 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:20:27,018 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:20:27,018 - root - INFO - ----------------------------
+2025-05-02 12:20:36,804 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:20:36,806 - discord.client - INFO - logging in using static token
+2025-05-02 12:20:37,766 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ff536171c2f3c486a011e563f8fe9a3f).
+2025-05-02 12:20:39,775 - root - INFO - Logged as Proker
+2025-05-02 12:20:39,776 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:20:39,778 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:20:39,781 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:20:39,783 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:20:39,787 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:20:39,789 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:20:39,789 - root - INFO - ----------------------------
+2025-05-02 12:21:05,132 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:21:05,134 - discord.client - INFO - logging in using static token
+2025-05-02 12:21:06,160 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4874732a53dd938ee2e0f8e515f10223).
+2025-05-02 12:21:08,165 - root - INFO - Logged as Proker
+2025-05-02 12:21:08,166 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:21:08,168 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:21:08,170 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:21:08,172 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:21:08,176 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:21:08,178 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:21:08,178 - root - INFO - ----------------------------
+2025-05-02 12:22:00,598 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:22:00,600 - discord.client - INFO - logging in using static token
+2025-05-02 12:22:01,531 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: aa432b7e6ba7ab9440a159134693ff5d).
+2025-05-02 12:22:03,570 - root - INFO - Logged as Proker
+2025-05-02 12:22:03,571 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:22:03,573 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:22:03,575 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:22:03,577 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:22:03,581 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:22:03,583 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:22:03,583 - root - INFO - ----------------------------
+2025-05-02 12:22:56,657 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:22:56,659 - discord.client - INFO - logging in using static token
+2025-05-02 12:22:57,713 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1cd695da0dc14fb75ba51e4432ead3d8).
+2025-05-02 12:22:59,721 - root - INFO - Logged as Proker
+2025-05-02 12:22:59,723 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:22:59,727 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:22:59,730 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:22:59,731 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:22:59,737 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:22:59,739 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:22:59,740 - root - INFO - ----------------------------
+2025-05-02 12:23:23,558 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:23:23,560 - discord.client - INFO - logging in using static token
+2025-05-02 12:23:24,643 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: f191986d83395052613250033d0d7342).
+2025-05-02 12:23:26,657 - root - INFO - Logged as Proker
+2025-05-02 12:23:26,658 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:23:26,661 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:23:26,663 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:23:26,667 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:23:26,669 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:23:26,671 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:23:26,672 - root - INFO - ----------------------------
+2025-05-02 12:25:30,343 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:25:30,345 - discord.client - INFO - logging in using static token
+2025-05-02 12:25:31,491 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e3f5ea63606c92bfb6d3b0226bfd91fb).
+2025-05-02 12:25:33,504 - root - INFO - Logged as Proker
+2025-05-02 12:25:33,504 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:25:33,507 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:25:33,509 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:25:33,510 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:25:33,514 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:25:33,517 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:25:33,517 - root - INFO - ----------------------------
+2025-05-02 12:27:23,644 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:27:23,647 - discord.client - INFO - logging in using static token
+2025-05-02 12:27:24,746 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 4c305146f53f78aec50cea332a50432b).
+2025-05-02 12:27:26,754 - root - INFO - Logged as Proker
+2025-05-02 12:27:26,755 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:27:26,758 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:27:26,760 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:27:26,761 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:27:26,767 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:27:26,768 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:27:26,769 - root - INFO - ----------------------------
+2025-05-02 12:27:46,390 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:27:46,393 - discord.client - INFO - logging in using static token
+2025-05-02 12:27:47,358 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 1e3f60389f42d111fbf9ce32eb08a941).
+2025-05-02 12:27:49,368 - root - INFO - Logged as Proker
+2025-05-02 12:27:49,369 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:27:49,371 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:27:49,373 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:27:49,375 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:27:49,380 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:27:49,382 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:27:49,382 - root - INFO - ----------------------------
+2025-05-02 12:28:31,602 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:28:31,604 - discord.client - INFO - logging in using static token
+2025-05-02 12:28:32,625 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 6f9b71efda9390e4cedb25c23adb8cfb).
+2025-05-02 12:28:34,641 - root - INFO - Logged as Proker
+2025-05-02 12:28:34,641 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:28:34,644 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:28:34,646 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:28:34,648 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:28:34,652 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:28:34,654 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:28:34,654 - root - INFO - ----------------------------
+2025-05-02 12:28:51,073 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:28:51,075 - discord.client - INFO - logging in using static token
+2025-05-02 12:28:52,014 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3a656a66e6f987e8a25762813e632304).
+2025-05-02 12:28:54,041 - root - INFO - Logged as Proker
+2025-05-02 12:28:54,042 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:28:54,045 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:28:54,047 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:28:54,048 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:28:54,052 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:28:54,054 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:28:54,054 - root - INFO - ----------------------------
+2025-05-02 12:30:04,725 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:30:04,727 - discord.client - INFO - logging in using static token
+2025-05-02 12:30:05,970 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a48b8d560c5a14055c7168aa5d9851e3).
+2025-05-02 12:30:07,977 - root - INFO - Logged as Proker
+2025-05-02 12:30:07,978 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:30:07,980 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:30:07,982 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:30:07,984 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:30:07,989 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:30:07,990 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:30:07,991 - root - INFO - ----------------------------
+2025-05-02 12:32:45,227 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:32:45,228 - discord.client - INFO - logging in using static token
+2025-05-02 12:32:46,321 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: aa26c620fa4ebdb9f8919f962660d0d5).
+2025-05-02 12:32:48,344 - root - INFO - Logged as Proker
+2025-05-02 12:32:48,344 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:32:48,346 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:32:48,349 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:32:48,350 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:32:48,355 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:32:48,357 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:32:48,357 - root - INFO - ----------------------------
+2025-05-02 12:33:41,223 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:33:41,226 - discord.client - INFO - logging in using static token
+2025-05-02 12:33:42,199 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 946be0efa57e7088d4667943740e5214).
+2025-05-02 12:33:44,216 - root - INFO - Logged as Proker
+2025-05-02 12:33:44,218 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:33:44,220 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:33:44,223 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:33:44,224 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:33:44,230 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:33:44,232 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:33:44,232 - root - INFO - ----------------------------
+2025-05-02 12:34:44,960 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-02 12:34:44,962 - discord.client - INFO - logging in using static token
+2025-05-02 12:34:45,954 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: dc1c8a303eb2e4a01f0e48bf65bd7a16).
+2025-05-02 12:34:47,970 - root - INFO - Logged as Proker
+2025-05-02 12:34:47,971 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-02 12:34:47,974 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-02 12:34:47,975 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-02 12:34:47,977 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-02 12:34:47,979 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-02 12:34:47,980 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-02 12:34:47,980 - root - INFO - ----------------------------

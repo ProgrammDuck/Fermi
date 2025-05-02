@@ -1,5 +1,7 @@
 import discord
 from discord.ext import commands
+from discord.errors import Forbidden
+import logging
 
 scemb = discord.Embed(
     title='✅ Success ✅',
@@ -15,6 +17,7 @@ eremb = discord.Embed(
 class errors(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
+        self.logger = logging.getLogger(__name__ )
         
     @commands.Cog.listener()
     async def on_command_error(self, ctx: commands.Context, error):
@@ -25,7 +28,7 @@ class errors(commands.Cog):
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.MissingRequiredArgument):
             msg = eremb.copy()
-            msg.description = f'Missing required argument.\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`'
+            msg.description = f'Missing required argument.\nUsage: `{self.bot.command_prefix}{command.name} {command.signature}`.'
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.MissingPermissions):
             msg = eremb.copy()
@@ -37,13 +40,35 @@ class errors(commands.Cog):
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.CommandNotFound):
             msg = eremb.copy()
-            msg.description = 'Command not found'
+            msg.description = 'Command not found.'
             await ctx.reply(embed=msg)
         elif isinstance(error, commands.MemberNotFound):
             msg = eremb.copy()
-            msg.description = 'Member not found'
+            msg.description = 'Member not found.'
             await ctx.reply(embed=msg)
-        
+        elif isinstance(error, commands.CommandError):
+            if 'yourself' in str(error):
+                msg = eremb.copy()
+                msg.description = 'Cannot do it for yourself.'
+                await ctx.reply(embed=msg)
+            elif 'BotRoleTooLow' in str(error):
+                msg = eremb.copy()
+                msg.description = 'Bot role too low.'
+                await ctx.reply(embed=msg)
+            elif 'AuthorRoleTooLow' in str(error):
+                msg = eremb.copy()
+                msg.description = 'You cannot do it for member with a role higher or equal to yours.'
+                await ctx.reply(embed=msg)
+            elif 'bot_doing' in str(error):
+                msg = eremb.copy()
+                msg.description = 'Cannot do it for myself'
+                await ctx.reply(embed=msg)
+            
+        else:
+            self.logger.error(f"Unhandled error: {error}.")
+            msg = eremb.copy()
+            msg.description = f'An error has occurred: `{error}`.'
+            await ctx.reply(embed=msg)
             
             
             
