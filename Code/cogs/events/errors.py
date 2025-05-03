@@ -63,9 +63,17 @@ class errors(commands.Cog):
                 msg = eremb.copy()
                 msg.description = 'Cannot do it for myself'
                 await ctx.reply(embed=msg)
-            
+            elif 'HTTP' in str(error):
+                msg = eremb.copy()
+                msg.description = f"Discord API error. Try again later. (`{error}`)"
+                await ctx.reply(embed=msg)
+                
+        elif isinstance(error, discord.HTTPException):
+            msg = eremb.copy()
+            msg.description = "Discord API error. Try again later."
+            await ctx.reply(embed=msg)
         else:
-            self.logger.error(f"Unhandled error: {error}.")
+            self.logger.error(f"Unhandled error: `{error}`.")
             msg = eremb.copy()
             msg.description = f'An error has occurred: `{error}`.'
             await ctx.reply(embed=msg)
