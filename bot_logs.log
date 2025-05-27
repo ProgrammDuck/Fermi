@@ -1,0 +1,26 @@
+2025-05-27 20:20:45,696 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-27 20:20:45,699 - discord.client - INFO - logging in using static token
+2025-05-27 20:20:47,005 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: dc2dac37c10142c6f172a97b5a95eb0d).
+2025-05-27 20:20:49,028 - root - INFO - Logged as RNPPS_Bot
+2025-05-27 20:20:49,029 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-27 20:20:49,032 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-27 20:20:49,039 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-27 20:20:49,041 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-27 20:20:49,043 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-27 20:20:49,045 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-27 20:20:49,049 - root - ERROR - Failed to load extension cogs.commands.project: Extension 'cogs.commands.project' raised an error: ValueError: 'embed create' must be between 1-32 characters and contain only lower-case letters, numbers, hyphens, or underscores.
+2025-05-27 20:20:49,054 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-27 20:20:49,054 - root - INFO - ----------------------------
+2025-05-27 20:22:16,735 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-27 20:22:16,738 - discord.client - INFO - logging in using static token
+2025-05-27 20:22:17,861 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 9135b4970ea670c76a010e28b8b1a0a4).
+2025-05-27 20:22:19,889 - root - INFO - Logged as RNPPS_Bot
+2025-05-27 20:22:19,891 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-27 20:22:19,893 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-27 20:22:19,895 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-27 20:22:19,897 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-27 20:22:19,899 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-27 20:22:19,901 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-27 20:22:19,909 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-27 20:22:19,911 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-27 20:22:19,911 - root - INFO - ----------------------------

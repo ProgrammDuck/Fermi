@@ -28,6 +28,6 @@ class owner(commands.Cog):
     async def send_message(self, ctx, channelid, *, message):
         channel = await self.bot.fetch_channel(channelid)
         await channel.send(message)
-        
+    
 async def setup(bot):
     await bot.add_cog(owner(bot))

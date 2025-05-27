@@ -37,12 +37,12 @@ class main(commands.Cog):
     async def echo(self, ctx, *, message):
         self.logger.info(f'[ECHO] {ctx.author.name} - {message}')
         await ctx.reply(message)
-    @commands.hybrid_command('info', help='Information of the bot.')
+    @commands.hybrid_command('about', help='Information of the bot.')
     @commands.cooldown(1, 5, commands.BucketType.user)
-    async def info(self, ctx):
+    async def about(self, ctx):
         msg = discord.Embed(
             title='Information',
-            description='This is a open-source bot\n - [Github](https://github.com/ProgrammDuck/Ppoker)\n   - created by <@916019025945976842>. He is my Dad). I have only 1 developer. You can change this bot for your hope, This all.',
+            description='This is a open-source bot\n - [Github](https://github.com/ProgrammDuck/RNPPS-Bot)\n   - created by <@916019025945976842>. He is my Dad). I have only 1 developer. You can change this bot for your hope, This all.',
             colour=discord.Colour.blue()
         )
 
@@ -123,6 +123,7 @@ class main(commands.Cog):
 
             view = HelpView(pages, current_page)
             await ctx.reply(embed=pages[current_page], view=view)
-
+        
+    
 async def setup(bot):
     await bot.add_cog(main(bot))

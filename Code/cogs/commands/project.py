@@ -35,6 +35,7 @@ class project(commands.Cog):
     
     #⁡⁢⁣⁣---𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀---⁡
     @commands.hybrid_command('embedmessage', help='Send the message as embed.')
+    @commands.cooldown(1, 5, commands.BucketType.user)
     async def embedmessage(self, ctx:commands.Context, title, *, message):
         msg = discord.Embed(
             title=title,
@@ -44,5 +45,6 @@ class project(commands.Cog):
         msg.set_footer(text=f'Best regards, \n• Your {ctx.author.top_role.name} - {ctx.author.name}')
         await ctx.send(embed=msg)
 
+        
 async def setup(bot):
     await bot.add_cog(project(bot))
