@@ -13,8 +13,6 @@ eremb = discord.Embed(
     colour=discord.Colour.red()
 )
 
-
-discord.Permissions.mute_members
 class moderation(commands.Cog):
     def __init__(self, bot):
         self.bot: commands.Bot  = bot
@@ -108,6 +106,7 @@ class moderation(commands.Cog):
 
 
     @commands.hybrid_command('unmute', help='Unmute a user in the server')
+    @commands.has_permissions(moderate_members=True)
     async def unmute(self, ctx: commands.Context, member: discord.Member):
         if member.is_timed_out() == True:
             await member.timeout(None)

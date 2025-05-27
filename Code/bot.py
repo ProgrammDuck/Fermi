@@ -9,7 +9,9 @@ load_cogs = [
     'cogs.commands.main_commands',
     'cogs.events.errors',
     'cogs.commands.moderation',
-    'cogs.commands.fun'
+    'cogs.commands.fun',
+    'cogs.commands.project',
+    'cogs.commands.owner'
 ]
 
 scemb = discord.Embed(

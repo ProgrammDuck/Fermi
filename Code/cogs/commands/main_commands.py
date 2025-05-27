@@ -24,21 +24,19 @@ class main(commands.Cog):
     @commands.hybrid_command('clear', help='Clearing messages', aliases=['purge'])
     @commands.has_permissions(manage_messages=True)
     async def clear(self, ctx, value = 10):
-        value += 1
-        await ctx.channel.purge(limit=value)
-        msg = scemb.copy()
-        msg.description = f'{value - 1} messages cleared'
-        self.logger.info(f'[CLEAR] {ctx.author.name} cleared {value} messages in {ctx.channel.id}')
-        await ctx.send(embed=msg, delete_after=5)
+        deleted = await ctx.channel.purge(limit=value)
         
+        msg = scemb.copy()
+        msg.description = f'{len(deleted)} messages cleared'
+        self.logger.info(f'[CLEAR] {ctx.author.name} cleared {len(deleted)} messages in {ctx.channel.id}')
+        
+        await ctx.send(embed=msg, delete_after=5)
         
     @commands.hybrid_command('echo', help='Repeat your message')
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def echo(self, ctx, *, message):
         self.logger.info(f'[ECHO] {ctx.author.name} - {message}')
         await ctx.reply(message)
-        
-    
     @commands.hybrid_command('info', help='Information of the bot.')
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def info(self, ctx):
@@ -125,6 +123,6 @@ class main(commands.Cog):
 
             view = HelpView(pages, current_page)
             await ctx.reply(embed=pages[current_page], view=view)
-    
+
 async def setup(bot):
     await bot.add_cog(main(bot))

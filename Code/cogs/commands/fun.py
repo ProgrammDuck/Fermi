@@ -2,6 +2,8 @@ import discord
 from discord.ext import commands
 import random
 import logging
+import asyncio
+import aiohttp
 
 scemb = discord.Embed(
     title='✅ Success ✅',
@@ -43,7 +45,7 @@ class fun(commands.Cog):
         
     @commands.hybrid_command('magicball', help='Return random answer to your quesion.')
     @commands.cooldown(1, 5, commands.BucketType.user)
-    async def magicball(self, ctx, question):
+    async def magicball(self, ctx, *, question):
         yes = discord.Embed(
             title='I think...',
             description='Yes! Without reservations.',
@@ -77,8 +79,43 @@ class fun(commands.Cog):
         table = [yes, yes1, idk, no, no1]
         answer = table[random.randint(0, len(table) - 1)]
         
-        self.logger.info(f'[MAGICBALL] {question} - {answer}')
-        await ctx.reply(embed=answer)
+        self.logger.info(f'[MAGICBALL] {question} - {answer.description}')
+        await ctx.reply(f'Question: `{question}`', embed=answer)
+    
+    
+    @commands.hybrid_command('quiz', help='Starts a quiz.')
+    @commands.cooldown(1, 30, commands.BucketType.user)
+    async def quiz(self, ctx):
+        questions = {
+            "Question: What is the first 10 digits after the decimal point of the number π? (3,..)": "1415926535",
+            "Who created this bot?": "Programmduck"
+        }
+        question, answer = random.choice(list(questions.items()))
+        emb = discord.Embed(
+            title='❓Quiz',
+            description=f"Question: {question}\n(Answer in 10 seconds!)",
+            colour=discord.Colour.pink()
+        )
+        await ctx.reply(embed=emb)
+        
+        def check(m):
+            return m.author == ctx.author and m.channel == ctx.channel
+        
+        try:
+            msg = await self.bot.wait_for("message", timeout=10.0, check=check)
+            if msg.content.lower() == answer.lower():
+                msg = emb.copy()
+                msg.description = "✅ Correct!"
+                msg.colour = discord.Colour.brand_green()
+                await ctx.reply(embed=msg)
+            else:
+                msg = emb.copy()
+                msg.description = f"❌ Incorrect! Correct answer: **{answer}**"
+                msg.colour = discord.Colour.brand_red()
+                await ctx.reply(embed=msg)
+        except asyncio.TimeoutError:
+            await ctx.reply("⏰ Time's up!")
+
     
 async def setup(bot):
     await bot.add_cog(fun(bot))

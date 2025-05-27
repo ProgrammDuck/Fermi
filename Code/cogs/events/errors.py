@@ -21,7 +21,10 @@ class errors(commands.Cog):
         
     @commands.Cog.listener()
     async def on_command_error(self, ctx: commands.Context, error):
-        command = self.bot.get_command(ctx.command.name)
+        if ctx.command is not None:
+            command = self.bot.get_command(ctx.command.name)
+        else:
+            command = None
         if isinstance(error, commands.errors.CommandOnCooldown):
             msg = eremb.copy()
             msg.description = str(error)
@@ -67,7 +70,7 @@ class errors(commands.Cog):
                 msg = eremb.copy()
                 msg.description = f"Discord API error. Try again later. (`{error}`)"
                 await ctx.reply(embed=msg)
-                
+        
         elif isinstance(error, discord.HTTPException):
             msg = eremb.copy()
             msg.description = "Discord API error. Try again later."
@@ -77,7 +80,7 @@ class errors(commands.Cog):
             msg = eremb.copy()
             msg.description = f'An error has occurred: `{error}`.'
             await ctx.reply(embed=msg)
-            
+        
             
             
 async def setup(bot):
