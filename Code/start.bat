@@ -1,1 +1,0 @@
-python C:\Users\Ilya\Desktop\folders\github\Proker\Code\bot.py

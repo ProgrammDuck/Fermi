@@ -27,8 +27,6 @@ class moderation(commands.Cog):
             raise commands.CommandError("bot_doing")
         elif ctx.guild.me.top_role <= member.top_role:
             raise commands.CommandError("BotRoleTooLow")
-        elif ctx.author.top_role <= member.top_role and ctx.author != ctx.guild.owner:
-            raise commands.CommandError("AuthorRoleTooLow")
         
         msg = scemb.copy()
         msg.description = f'{member.mention} has been kicked for `{reason}` by {ctx.author.mention}'
@@ -46,7 +44,7 @@ class moderation(commands.Cog):
         await member.kick(reason=reason)
 
     @commands.hybrid_command('mute', help='Mute a user in the server')
-    @commands.has_permissions(moderate_members=True)
+    @commands.has_permissions(kick_members=True)
     async def mute(self, ctx: commands.Context, member: discord.Member, duration: str, *, reason=None):
         if member == ctx.author:
             raise commands.CommandError("yourself")
@@ -54,8 +52,6 @@ class moderation(commands.Cog):
             raise commands.CommandError("bot_doing")
         elif ctx.guild.me.top_role <= member.top_role:
             raise commands.CommandError("BotRoleTooLow")
-        elif ctx.author.top_role <= member.top_role and ctx.author != ctx.guild.owner:
-            raise commands.CommandError("AuthorRoleTooLow")
         
         if member.is_timed_out() == True:
             msg = eremb.copy()
@@ -176,8 +172,6 @@ class moderation(commands.Cog):
                 raise commands.CommandError("bot_doing")
             elif ctx.guild.me.top_role <= member.top_role:
                 raise commands.CommandError("BotRoleTooLow")
-            elif ctx.author.top_role <= member.top_role and ctx.author != ctx.guild.owner:
-                raise commands.CommandError("AuthorRoleTooLow")
             
             msg = scemb.copy()
             msg.description = f'{member.mention} has been banned for **{duration}** for `{reason}` by {ctx.author.mention}'

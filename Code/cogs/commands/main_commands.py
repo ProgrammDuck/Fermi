@@ -37,6 +37,8 @@ class main(commands.Cog):
     async def echo(self, ctx, *, message):
         self.logger.info(f'[ECHO] {ctx.author.name} - {message}')
         await ctx.reply(message)
+        
+        
     @commands.hybrid_command('about', help='Information of the bot.')
     @commands.cooldown(1, 5, commands.BucketType.user)
     async def about(self, ctx):
