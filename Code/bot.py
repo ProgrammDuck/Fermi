@@ -12,14 +12,15 @@ load_cogs = [
     'cogs.commands.fun',
     'cogs.commands.project',
     'cogs.commands.owner',
+    'cogs.commands.misc'
 ]
 
 scemb = discord.Embed(
-    title='✅ Success ✅',
+    title='✅ | Success',
     colour=discord.Colour.green()
-) 
+)
 eremb = discord.Embed(
-    title='❌ Error ❌',
+    title='❌ | Error',
     colour=discord.Colour.red()
 )
 

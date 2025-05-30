@@ -6,11 +6,11 @@ import os
 import logging
 
 scemb = discord.Embed(
-    title='✅ Success ✅',
+    title='✅ | Success',
     colour=discord.Colour.green()
 )
 eremb = discord.Embed(
-    title='❌ Error❌',
+    title='❌ | Error',
     colour=discord.Colour.red()
 )
 
@@ -20,11 +20,12 @@ class roblox(commands.Cog):
     def __init__(self, bot):
         self.bot = bot
         self.logger = logging.getLogger(__name__)
+        
     @commands.hybrid_command('send', help='Sending your message to roblox servers')
     @commands.cooldown(1, 5, commands.BucketType.guild)
     async def send(self, ctx, *, message):
         key = os.getenv('ROBLOX_API_KEY1')
-        universeid = 7603505611
+        universeid = 6362476013
         url = f'https://apis.roblox.com/cloud/v2/universes/{universeid}:publishMessage'
         
         headers = {

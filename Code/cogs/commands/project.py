@@ -4,11 +4,11 @@ from discord.ui import Button, View
 import logging
 
 scemb = discord.Embed(
-    title='✅ Success ✅',
+    title='✅ | Success',
     colour=discord.Colour.green()
 )
 eremb = discord.Embed(
-    title='❌ Error ❌',
+    title='❌ | Error',
     colour=discord.Colour.red()
 )
 

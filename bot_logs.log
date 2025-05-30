@@ -478,3 +478,581 @@ discord.errors.NotFound: 404 Not Found (error code: 10062): Unknown interaction
 2025-05-28 16:58:15,024 - root - INFO - ----------------------------
 2025-05-28 16:58:16,078 - root - INFO - Global Syncing ~ 1 hour
 2025-05-28 17:00:33,600 - discord.gateway - INFO - Shard ID None has successfully RESUMED session 659f4bab0afc697e9d9b1290c3752665.
+2025-05-28 19:16:59,256 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-28 19:16:59,257 - discord.client - INFO - logging in using static token
+2025-05-28 19:17:00,424 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 670330186c27ddea23cab12e02ebf05d).
+2025-05-28 19:17:02,474 - root - INFO - Logged as RNPPS_Bot
+2025-05-28 19:17:02,475 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-28 19:17:02,479 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-28 19:17:02,486 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-28 19:17:02,488 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-28 19:17:02,494 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-28 19:17:02,501 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-28 19:17:02,506 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-28 19:17:02,510 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-28 19:17:02,510 - root - INFO - ----------------------------
+2025-05-28 19:19:53,776 - cogs.commands.roblox - INFO - programmduck sended "f" to roblox
+2025-05-28 19:20:14,751 - cogs.commands.roblox - INFO - programmduck sended "hello" to roblox
+2025-05-28 19:22:18,788 - cogs.commands.roblox - INFO - programmduck sended "f" to roblox
+2025-05-28 19:23:31,229 - cogs.commands.roblox - INFO - programmduck sended "f" to roblox
+2025-05-28 19:24:12,574 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-28 19:24:12,576 - discord.client - INFO - logging in using static token
+2025-05-28 19:24:13,608 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: afb43157d74634de81b374c752a049cb).
+2025-05-28 19:24:15,743 - root - INFO - Logged as RNPPS_Bot
+2025-05-28 19:24:15,745 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-28 19:24:15,749 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-28 19:24:15,752 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-28 19:24:15,754 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-28 19:24:15,757 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-28 19:24:15,761 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-28 19:24:15,763 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-28 19:24:15,765 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-28 19:24:15,765 - root - INFO - ----------------------------
+2025-05-28 19:26:35,821 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-28 19:26:35,825 - discord.client - INFO - logging in using static token
+2025-05-28 19:26:36,924 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 7ee1606de1d758d6211b102ecf203a5e).
+2025-05-28 19:26:38,948 - root - INFO - Logged as RNPPS_Bot
+2025-05-28 19:26:38,949 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-28 19:26:38,954 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-28 19:26:38,959 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-28 19:26:38,962 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-28 19:26:38,968 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-28 19:26:38,974 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-28 19:26:38,977 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-28 19:26:38,981 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-28 19:26:38,981 - root - INFO - ----------------------------
+2025-05-30 08:30:20,677 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:30:20,680 - discord.client - INFO - logging in using static token
+2025-05-30 08:30:24,202 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 565039611ec7dc4238bba2773c9a2f9d).
+2025-05-30 08:30:26,266 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:30:26,268 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:30:26,271 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:30:26,277 - root - ERROR - Failed to load extension cogs.commands.main_commands: Extension 'cogs.commands.main_commands' raised an error: SyntaxError: cannot assign to await expression here. Maybe you meant '==' instead of '='? (main_commands.py, line 109)
+2025-05-30 08:30:26,279 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:30:26,283 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:30:26,287 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:30:26,290 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:30:26,292 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:30:26,296 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:30:26,296 - root - INFO - ----------------------------
+2025-05-30 08:35:56,166 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:35:56,168 - discord.client - INFO - logging in using static token
+2025-05-30 08:35:59,321 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 03dfefea5d7c1c072d4fd86fd3636170).
+2025-05-30 08:36:01,633 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:36:01,634 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:36:01,636 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:36:01,640 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:36:01,642 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:36:01,644 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:36:01,646 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:36:01,648 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:36:01,649 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:36:01,652 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:36:01,652 - root - INFO - ----------------------------
+2025-05-30 08:38:49,975 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:38:49,977 - discord.client - INFO - logging in using static token
+2025-05-30 08:38:51,506 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: c6693f9980a3464d06d1056ee0df97f7).
+2025-05-30 08:38:53,543 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:38:53,543 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:38:53,545 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:38:53,551 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:38:53,553 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:38:53,556 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:38:53,558 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:38:53,560 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:38:53,561 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:38:53,563 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:38:53,563 - root - INFO - ----------------------------
+2025-05-30 08:41:13,255 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:41:13,257 - discord.client - INFO - logging in using static token
+2025-05-30 08:41:14,851 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: e6b981f374e9a8a51924b840b4d80051).
+2025-05-30 08:41:16,925 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:41:16,926 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:41:16,929 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:41:16,935 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:41:16,936 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:41:16,939 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:41:16,941 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:41:16,942 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:41:16,944 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:41:16,946 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:41:16,947 - root - INFO - ----------------------------
+2025-05-30 08:43:11,634 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:43:11,637 - discord.client - INFO - logging in using static token
+2025-05-30 08:43:13,168 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 84b3486c5fb12e6937f6fa8d10ece78b).
+2025-05-30 08:43:15,208 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:43:15,209 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:43:15,211 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:43:15,215 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:43:15,217 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:43:15,220 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:43:15,221 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:43:15,222 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:43:15,224 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:43:15,226 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:43:15,226 - root - INFO - ----------------------------
+2025-05-30 08:43:41,132 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:43:41,134 - discord.client - INFO - logging in using static token
+2025-05-30 08:43:42,415 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: a85ac186cad2b832fb68649f76d62ad1).
+2025-05-30 08:43:44,474 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:43:44,475 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:43:44,478 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:43:44,482 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:43:44,483 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:43:44,485 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:43:44,488 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:43:44,490 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:43:44,491 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:43:44,493 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:43:44,493 - root - INFO - ----------------------------
+2025-05-30 08:44:27,798 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:44:27,802 - discord.client - INFO - logging in using static token
+2025-05-30 08:44:29,452 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 37bb3d570d6a0a0174e097fc83429c72).
+2025-05-30 08:44:31,520 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:44:31,520 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:44:31,523 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:44:31,527 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:44:31,528 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:44:31,531 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:44:31,532 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:44:31,534 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:44:31,535 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:44:31,537 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:44:31,537 - root - INFO - ----------------------------
+2025-05-30 08:45:59,087 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-05-30 08:45:59,089 - discord.client - INFO - logging in using static token
+2025-05-30 08:46:00,617 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0cc01d9f03b228459581314be2a05d93).
+2025-05-30 08:46:02,780 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 08:46:02,781 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 08:46:02,783 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-05-30 08:46:02,788 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-05-30 08:46:02,789 - root - INFO - Loaded extension: cogs.events.errors
+2025-05-30 08:46:02,791 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-05-30 08:46:02,793 - root - INFO - Loaded extension: cogs.commands.fun
+2025-05-30 08:46:02,794 - root - INFO - Loaded extension: cogs.commands.project
+2025-05-30 08:46:02,796 - root - INFO - Loaded extension: cogs.commands.owner
+2025-05-30 08:46:02,798 - root - INFO - Loaded extension: cogs.commands.misc
+2025-05-30 08:46:02,798 - root - INFO - ----------------------------
+2025-05-30 09:19:19,744 - discord.client - ERROR - Attempting a reconnect in 1.93s
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-30 09:19:21,701 - discord.client - ERROR - Attempting a reconnect in 1.57s
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-30 09:19:23,296 - discord.client - ERROR - Attempting a reconnect in 0.75s
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-30 09:19:24,054 - discord.client - ERROR - Attempting a reconnect in 6.60s
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-30 09:19:30,671 - discord.client - ERROR - Attempting a reconnect in 26.81s
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-30 09:19:57,494 - discord.client - ERROR - Attempting a reconnect in 51.50s
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1351, in _create_direct_connection
+    hosts = await self._resolve_host(host, port, traces=traces)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 995, in _resolve_host
+    return await asyncio.shield(resolved_host_task)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1026, in _resolve_host_with_throttle
+    addrs = await self._resolver.resolve(host, port, family=self._family)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\resolver.py", line 39, in resolve
+    infos = await self._loop.getaddrinfo(
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    ...<5 lines>...
+    )
+    ^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\base_events.py", line 933, in getaddrinfo
+    return await self.run_in_executor(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        None, getaddr_func, host, port, family, type, proto, flags)
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\concurrent\futures\thread.py", line 59, in run
+    result = self.fn(*self.args, **self.kwargs)
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\socket.py", line 977, in getaddrinfo
+    for res in _socket.getaddrinfo(host, port, family, type, proto, flags):
+               ~~~~~~~~~~~~~~~~~~~^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+socket.gaierror: [Errno 11001] getaddrinfo failed
+
+The above exception was the direct cause of the following exception:
+
+Traceback (most recent call last):
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\client.py", line 701, in connect
+    self.ws = await asyncio.wait_for(coro, timeout=60.0)
+              ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Program Files\WindowsApps\PythonSoftwareFoundation.Python.3.13_3.13.1008.0_x64__qbz5n2kfra8p0\Lib\asyncio\tasks.py", line 507, in wait_for
+    return await fut
+           ^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\gateway.py", line 375, in from_client
+    socket = await client.http.ws_connect(str(url))
+             ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\discord\http.py", line 554, in ws_connect
+    return await self.__session.ws_connect(url, **kwargs)
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 1004, in _ws_connect
+    resp = await self.request(
+           ^^^^^^^^^^^^^^^^^^^
+    ...<11 lines>...
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\client.py", line 703, in _request
+    conn = await self._connector.connect(
+           ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+        req, traces=traces, timeout=real_timeout
+        ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+    )
+    ^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 548, in connect
+    proto = await self._create_connection(req, traces, timeout)
+            ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1056, in _create_connection
+    _, proto = await self._create_direct_connection(req, traces, timeout)
+               ^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^^
+  File "C:\Users\Ilya\AppData\Local\Packages\PythonSoftwareFoundation.Python.3.13_qbz5n2kfra8p0\LocalCache\local-packages\Python313\site-packages\aiohttp\connector.py", line 1357, in _create_direct_connection
+    raise ClientConnectorDNSError(req.connection_key, exc) from exc
+aiohttp.client_exceptions.ClientConnectorDNSError: Cannot connect to host gateway-us-east1-b.discord.gg:443 ssl:default [getaddrinfo failed]
+2025-05-30 09:20:49,375 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-05-30 09:20:55,167 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 3add8470bea615949b7c3c37595615ac).
+2025-05-30 09:20:57,206 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 09:20:57,207 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 09:20:57,207 - root - ERROR - Failed to load extension cogs.commands.roblox: Extension 'cogs.commands.roblox' is already loaded.
+2025-05-30 09:20:57,207 - root - ERROR - Failed to load extension cogs.commands.main_commands: Extension 'cogs.commands.main_commands' is already loaded.
+2025-05-30 09:20:57,208 - root - ERROR - Failed to load extension cogs.events.errors: Extension 'cogs.events.errors' is already loaded.
+2025-05-30 09:20:57,208 - root - ERROR - Failed to load extension cogs.commands.moderation: Extension 'cogs.commands.moderation' is already loaded.
+2025-05-30 09:20:57,208 - root - ERROR - Failed to load extension cogs.commands.fun: Extension 'cogs.commands.fun' is already loaded.
+2025-05-30 09:20:57,208 - root - ERROR - Failed to load extension cogs.commands.project: Extension 'cogs.commands.project' is already loaded.
+2025-05-30 09:20:57,208 - root - ERROR - Failed to load extension cogs.commands.owner: Extension 'cogs.commands.owner' is already loaded.
+2025-05-30 09:20:57,209 - root - ERROR - Failed to load extension cogs.commands.misc: Extension 'cogs.commands.misc' is already loaded.
+2025-05-30 09:20:57,209 - root - INFO - ----------------------------
+2025-05-30 09:58:09,548 - discord.gateway - WARNING - Shard ID None has stopped responding to the gateway. Closing and restarting.
+2025-05-30 09:58:09,900 - discord.gateway - INFO - Shard ID None session has been invalidated.
+2025-05-30 09:58:15,450 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: eaefbc1effa3a4fa057998ca30670ef7).
+2025-05-30 09:58:17,474 - root - INFO - Logged as RNPPS_Bot
+2025-05-30 09:58:17,475 - root - INFO - -----LOADING EXTENSIONS-----
+2025-05-30 09:58:17,475 - root - ERROR - Failed to load extension cogs.commands.roblox: Extension 'cogs.commands.roblox' is already loaded.
+2025-05-30 09:58:17,476 - root - ERROR - Failed to load extension cogs.commands.main_commands: Extension 'cogs.commands.main_commands' is already loaded.
+2025-05-30 09:58:17,476 - root - ERROR - Failed to load extension cogs.events.errors: Extension 'cogs.events.errors' is already loaded.
+2025-05-30 09:58:17,476 - root - ERROR - Failed to load extension cogs.commands.moderation: Extension 'cogs.commands.moderation' is already loaded.
+2025-05-30 09:58:17,477 - root - ERROR - Failed to load extension cogs.commands.fun: Extension 'cogs.commands.fun' is already loaded.
+2025-05-30 09:58:17,477 - root - ERROR - Failed to load extension cogs.commands.project: Extension 'cogs.commands.project' is already loaded.
+2025-05-30 09:58:17,477 - root - ERROR - Failed to load extension cogs.commands.owner: Extension 'cogs.commands.owner' is already loaded.
+2025-05-30 09:58:17,477 - root - ERROR - Failed to load extension cogs.commands.misc: Extension 'cogs.commands.misc' is already loaded.
+2025-05-30 09:58:17,477 - root - INFO - ----------------------------

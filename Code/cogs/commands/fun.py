@@ -6,11 +6,11 @@ import asyncio
 import aiohttp
 
 scemb = discord.Embed(
-    title='✅ Success ✅',
+    title='✅ | Success',
     colour=discord.Colour.green()
 )
 eremb = discord.Embed(
-    title='❌ Error ❌',
+    title='❌ | Error',
     colour=discord.Colour.red()
 )
 
@@ -21,7 +21,7 @@ class fun(commands.Cog):
         
     
     @commands.hybrid_command('random', help='Gets random number of your arguments.')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def random(self, ctx, number_1, number_2):
         if number_1 >= number_2:
             msg = eremb.copy()
@@ -44,7 +44,7 @@ class fun(commands.Cog):
         await ctx.reply(embed=msg)
         
     @commands.hybrid_command('magicball', help='Return random answer to your quesion.')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def magicball(self, ctx, *, question):
         yes = discord.Embed(
             title='I think...',
@@ -83,7 +83,7 @@ class fun(commands.Cog):
         await ctx.reply(f'Question: `{question}`', embed=answer)
     
     @commands.hybrid_command('quiz', help='Starts a quiz.')
-    @commands.cooldown(1, 30, commands.BucketType.user)
+    @commands.cooldown(1, 10, commands.BucketType.user)
     async def quiz(self, ctx):
         questions = {
             "Question: What is the first 10 digits after the decimal point of the number π? (3,..)": "1415926535",
@@ -115,66 +115,28 @@ class fun(commands.Cog):
         except asyncio.TimeoutError:
             await ctx.reply("⏰ Time's up!")
 
-    @commands.hybrid_command('avatar', help='Returns player avatar')
-    @commands.cooldown(1, 3, commands.BucketType.user)
-    async def avatar(self, ctx, user: discord.User = None):
-        user = user or ctx.author
-        
-        msg = discord.Embed()
-        msg.set_author(
-            name=user.display_name,
-            icon_url=user.avatar.url
-        )
-        msg.set_image(url=user.avatar.url)
-        await ctx.reply(embed=msg)
-    
-    @commands.hybrid_command('userinfo', help='Send user information.')
-    @commands.cooldown(1, 3, commands.BucketType.user)
-    async def userinfo(self, ctx: commands.Context, member: discord.Member = None):
-        member = member or ctx.author
+        server = ctx.guild
         
         msg = discord.Embed(
-            description=f'{member.name.capitalize()}\'s Information',
+            title=f'{server.name.capitalize()} server information',
             colour=discord.Colour.brand_green()
         )
         
-        roles = [role for role in member.roles if role != ctx.guild.default_role]
-        
-        if roles:
-            roles_str = "\n".join([role.mention for role in roles[:10]])
-            if len(roles) > 10:
-                roles_str += f"\n(+{len(roles)-10} more)"
-
-            msg.add_field(name=f"Roles [{len(roles)}]", value=roles_str, inline=True)
-        else:
-            msg.add_field(name="Roles", value="No roles", inline=True)
-        
-        created_timestamp = int(member.created_at.timestamp())
         msg.add_field(
-            name="Create date", 
-            value=f"<t:{created_timestamp}:F> (<t:{created_timestamp}:R>)", 
-            inline=True
+            name=f'Total members [{server.member_count}]',
+            value=' '
         )
         
-        joined_timestamp = int(member.joined_at.timestamp())
         msg.add_field(
-            name='Join date',
-            value=f'<t:{joined_timestamp}:F> (<t:{joined_timestamp}:R>)',
-            inline=True
+            name='Owner',
+            value=f'{server.owner.name.capitalize()}'
         )
         
-        msg.set_author(
-            name=member.name,
-            icon_url=member.avatar.url
-        )
-        
-        msg.set_footer(
-            text=f'ID: {member.id}'
-        )
+        msg.set_author(name=f'{server.name.capitalize()}', icon_url=server.icon.url)
+        msg.set_thumbnail(url=server.icon.url)
         
         await ctx.reply(embed=msg)
-    
-    
+
     
 async def setup(bot):
     await bot.add_cog(fun(bot))

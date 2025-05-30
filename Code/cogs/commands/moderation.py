@@ -5,11 +5,11 @@ import logging
 import datetime
 
 scemb = discord.Embed(
-    title='✅ Success ✅',
+    title='✅ | Success',
     colour=discord.Colour.green()
 )
 eremb = discord.Embed(
-    title='❌ Error❌',
+    title='❌ | Error',
     colour=discord.Colour.red()
 )
 

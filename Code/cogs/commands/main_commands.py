@@ -7,11 +7,11 @@ import random
 import logging
 
 scemb = discord.Embed(
-    title='✅ Success ✅',
+    title='✅ | Success',
     colour=discord.Colour.green()
 )
 eremb = discord.Embed(
-    title='❌ Error ❌',
+    title='❌ | Error',
     colour=discord.Colour.red()
 )
 
@@ -100,28 +100,23 @@ class main(commands.Cog):
                     super().__init__()
                     self.pages = pages
                     self.current_page = current_page
-
+                    self.update_buttons()
+                
+                def update_buttons(self):
+                    self.previous.disabled = (self.current_page == 0)
+                    self.next.disabled = (self.current_page == len(self.pages) - 1)
+        
                 @discord.ui.button(label='Previous', style=discord.ButtonStyle.primary)
                 async def previous(self, interaction: discord.Interaction, button: Button):
-                    if self.current_page > 0 and self.current_page < (math.ceil(len(commands_list) / commands_per_pages)):
-                        self.current_page -= 1
-                        await interaction.response.edit_message(embed=self.pages[self.current_page])
-                    else:
-                        msg = eremb.copy()
-                        msg.description = 'This is first page'
-                        await ctx.send(embed=msg, delete_after=2)
-                        await interaction.response.defer()
+                    self.current_page -= 1
+                    self.update_buttons()
+                    await interaction.response.edit_message(embed=self.pages[self.current_page], view=self)
 
                 @discord.ui.button(label='Next', style=discord.ButtonStyle.primary)
                 async def next(self, interaction: discord.Interaction, button: Button):
-                    if self.current_page < len(self.pages) - 1:
-                        self.current_page += 1
-                        await interaction.response.edit_message(embed=self.pages[self.current_page])
-                    else:
-                        msg = eremb.copy()
-                        msg.description = 'This is last page'
-                        await ctx.send(embed=msg, delete_after=2)
-                        await interaction.response.defer()
+                    self.current_page += 1
+                    self.update_buttons()
+                    await interaction.response.edit_message(embed=self.pages[self.current_page], view=self)
 
             view = HelpView(pages, current_page)
             await ctx.reply(embed=pages[current_page], view=view)
