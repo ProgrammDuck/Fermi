@@ -1,9 +1,8 @@
 import discord
 from discord.ext import commands
 from discord.ui import Button, View
-import asyncio
+
 import math
-import random
 import logging
 
 scemb = discord.Embed(

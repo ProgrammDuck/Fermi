@@ -1,9 +1,9 @@
 import discord
 from discord.ext import commands
+
 import random
 import logging
 import asyncio
-import aiohttp
 
 scemb = discord.Embed(
     title='✅ | Success',
@@ -136,7 +136,6 @@ class fun(commands.Cog):
         msg.set_thumbnail(url=server.icon.url)
         
         await ctx.reply(embed=msg)
-
     
 async def setup(bot):
     await bot.add_cog(fun(bot))

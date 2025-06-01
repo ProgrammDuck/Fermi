@@ -12,7 +12,8 @@ load_cogs = [
     'cogs.commands.fun',
     'cogs.commands.project',
     'cogs.commands.owner',
-    'cogs.commands.misc'
+    'cogs.commands.misc',
+    'cogs.commands.images_commands'
 ]
 
 scemb = discord.Embed(

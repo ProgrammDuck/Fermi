@@ -1,9 +1,8 @@
 import discord
 from discord.ext import commands
-import random
+
+
 import logging
-import asyncio
-import aiohttp
 
 scemb = discord.Embed(
     title='✅ | Success',
@@ -32,7 +31,7 @@ class misc(commands.Cog):
         msg.set_image(url=user.avatar.url)
         await ctx.reply(embed=msg)
     
-    @commands.hybrid_command('userinfo', help='Send user information.')
+    @commands.hybrid_command('userinfo', help='Send user information.', aliases=['playerinfo', 'plrinfo'])
     @commands.cooldown(1, 3, commands.BucketType.user)
     async def userinfo(self, ctx: commands.Context, member: discord.Member = None):
         member = member or ctx.author
@@ -78,7 +77,7 @@ class misc(commands.Cog):
         
         await ctx.reply(embed=msg)
     
-    @commands.hybrid_command('serverinfo', help='Returns a server information')
+    @commands.hybrid_command('serverinfo', help='Returns a server information', aliases=['srvinfo', 'guildinfo'])
     @commands.cooldown(1, 3, commands.BucketType.user)
     async def serverinfo(self, ctx: commands.Context):
         server = ctx.guild
@@ -95,13 +94,19 @@ class misc(commands.Cog):
         
         msg.add_field(
             name='Owner',
-            value=f'{server.owner.name.capitalize()}'
+            value=f'{server.owner.mention}'
+        )
+        
+        created_at = int(server.created_at.timestamp())
+        msg.add_field(
+            name='Server created',
+            value=f'<t:{created_at}:F> (<t:{created_at}:R>)'
         )
         
         msg.set_author(name=f'{server.name.capitalize()}', icon_url=server.icon.url)
         msg.set_thumbnail(url=server.icon.url)
         msg.set_footer(text=f'ID: {server.id}')
         await ctx.reply(embed=msg)
-
+    
 async def setup(bot):
     await bot.add_cog(misc(bot))
