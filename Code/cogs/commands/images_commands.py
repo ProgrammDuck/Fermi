@@ -17,7 +17,7 @@ eremb = discord.Embed(
 
 class images_commands(commands.Cog):
     def __init__(self, bot):
-        self.bot = bot
+        self.bot: commands.Bot = bot
         self.logger = logging.getLogger(__name__)
         
     
@@ -38,10 +38,12 @@ class images_commands(commands.Cog):
                         )
                         
                         embed.set_image(url=image_url)
-                        embed.set_footer(text=f"The \"!meow\" command provides random cat images using a public API. This is done through integration with The Cat API, one of the most trusted sources of cat images on the web. (Powered by The Cat API - thecatapi.com)")
+                        embed.set_footer(text=f"The \"{self.bot.command_prefix}meow\" command provides random cat images using a public API. This is done through integration with The Cat API, one of the most trusted sources of cat images on the web. (Powered by The Cat API - thecatapi.com)")
                         await ctx.send(embed=embed)
                     else:
-                        await ctx.send("API error")
+                        msg = eremb.copy()
+                        msg.description = 'API error'
+                        await ctx.send(embed=msg)
         
         except Exception as e:
             msg = eremb.copy()

@@ -31,20 +31,21 @@ class owner(commands.Cog):
     
     @commands.command(name='sync', hidden=True)
     @commands.is_owner()
-    async def sync(self, ctx, id = None):
-        if id:
+    async def sync(self, ctx, guild: discord.Guild = None):
+        if guild:
             await self.bot.tree.sync(guild=discord.Object(id))
             logging.info('Syncing')
+            
             msg = scemb.copy()
-            msg.description = f'Synced the {id}'
+            msg.description = f'Synced hybrid/slash commands in the **{guild.name}**, (`{guild.id}`)'
             await ctx.reply(embed=msg, ephemeral=True)
         else:
             await self.bot.tree.sync()
             logging.info('Global Syncing ~ 1 hour')
+            
             msg = scemb.copy()
-            msg.description = f'Syncing | ~ 1 hour'
+            msg.description = f'Syncing hybrid/slash commands in all guild | ~ 1 hour'
             await ctx.reply(embed=msg, ephemeral=True)
-    
     
 async def setup(bot):
     await bot.add_cog(owner(bot))

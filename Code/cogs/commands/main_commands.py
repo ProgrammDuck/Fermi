@@ -32,14 +32,14 @@ class main(commands.Cog):
         await ctx.send(embed=msg, delete_after=5)
         
     @commands.hybrid_command('echo', help='Repeat your message')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def echo(self, ctx, *, message):
         self.logger.info(f'[ECHO] {ctx.author.name} - {message}')
         await ctx.reply(message)
         
         
     @commands.hybrid_command('about', help='Information of the bot.')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def about(self, ctx):
         msg = discord.Embed(
             title='Information',
@@ -50,12 +50,12 @@ class main(commands.Cog):
         await ctx.reply(embed=msg)
 
     @commands.hybrid_command('ping', help='Check if the bot is online')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def ping(self, ctx):
         await ctx.reply('Pong!')
 
     @commands.hybrid_command('help', help='List all available commands')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def help(self, ctx, command_name: str = None):
         if command_name:
             command = self.bot.get_command(command_name)

@@ -31,11 +31,19 @@ class project(commands.Cog):
                 )
                 msg.add_field(name='Total members:', value=guild.member_count)
                 await channel.send(embed=msg)
+        else:
+            msg = discord.Embed(
+                    title='New member!',
+                    description=f'Hello, {member.mention}. Welcome to **{guild.name}**.',
+                    colour=discord.Colour.orange()
+                )
+            msg.add_field(name='Total members:', value=guild.member_count)
+            await channel.send(embed=msg)
     
     
     #⁡⁢⁣⁣---𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀---⁡
     @commands.hybrid_command('embedmessage', help='Send the message as embed.')
-    @commands.cooldown(1, 5, commands.BucketType.user)
+    @commands.cooldown(1, 3, commands.BucketType.user)
     async def embedmessage(self, ctx:commands.Context, title, *, message):
         msg = discord.Embed(
             title=title,

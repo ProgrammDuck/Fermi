@@ -22,7 +22,7 @@ class roblox(commands.Cog):
         self.logger = logging.getLogger(__name__)
         
     @commands.hybrid_command('send', help='Sending your message to roblox servers')
-    @commands.cooldown(1, 5, commands.BucketType.guild)
+    @commands.cooldown(1, 3, commands.BucketType.guild)
     async def send(self, ctx, *, message):
         key = os.getenv('ROBLOX_API_KEY1')
         universeid = 6362476013
