@@ -10,7 +10,7 @@ from dotenv import load_dotenv
 from embeds import scemb, eremb
 
 # ⁡⁢⁣⁣.𝗲𝗻𝘃⁡
-load_dotenv('.env')
+load_dotenv()
 token = os.getenv("TOKEN")
 prefix = os.getenv("PREFIX")
 
