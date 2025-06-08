@@ -1,0 +1,9 @@
+# === PYTHON ===
+__pycache__/
+
+# === CONFIGS AND SECRETS ===
+.env
+
+# === LOGS ===
+bot_logs.log
+*.log

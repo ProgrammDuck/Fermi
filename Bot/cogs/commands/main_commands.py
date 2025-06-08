@@ -5,14 +5,7 @@ from discord.ui import Button, View
 import math
 import logging
 
-scemb = discord.Embed(
-    title='✅ | Success',
-    colour=discord.Colour.green()
-)
-eremb = discord.Embed(
-    title='❌ | Error',
-    colour=discord.Colour.red()
-)
+from embeds import scemb, eremb
 
 class main(commands.Cog):
     def __init__(self, bot):

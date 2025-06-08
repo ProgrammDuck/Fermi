@@ -1,15 +1,96 @@
-2025-06-01 14:38:11,987 - root - WARNING - -----------------------NEW SESSION-----------------------
-2025-06-01 14:38:11,989 - discord.client - INFO - logging in using static token
-2025-06-01 14:38:13,132 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 61f7b6f1ac4a95f3366f172177f12b46).
-2025-06-01 14:38:15,152 - root - INFO - Logged as RNPPS_Bot
-2025-06-01 14:38:15,152 - root - INFO - -----LOADING EXTENSIONS-----
-2025-06-01 14:38:15,155 - root - INFO - Loaded extension: cogs.commands.roblox
-2025-06-01 14:38:15,156 - root - INFO - Loaded extension: cogs.commands.main_commands
-2025-06-01 14:38:15,158 - root - INFO - Loaded extension: cogs.events.errors
-2025-06-01 14:38:15,162 - root - INFO - Loaded extension: cogs.commands.moderation
-2025-06-01 14:38:15,165 - root - INFO - Loaded extension: cogs.commands.fun
-2025-06-01 14:38:15,168 - root - INFO - Loaded extension: cogs.commands.project
-2025-06-01 14:38:15,170 - root - INFO - Loaded extension: cogs.commands.owner
-2025-06-01 14:38:15,172 - root - INFO - Loaded extension: cogs.commands.misc
-2025-06-01 14:38:15,267 - root - INFO - Loaded extension: cogs.commands.images_commands
-2025-06-01 14:38:15,268 - root - INFO - ----------------------------
+2025-06-08 11:36:27,352 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:36:27,354 - discord.client - INFO - logging in using static token
+2025-06-08 11:37:41,004 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:37:41,006 - discord.client - INFO - logging in using static token
+2025-06-08 11:37:42,002 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: bb773e58799dd594de2c30c2dbae8a0e).
+2025-06-08 11:37:44,056 - root - INFO - Logged as Fermi
+2025-06-08 11:37:44,057 - root - INFO - -----LOADING EXTENSIONS-----
+2025-06-08 11:37:44,062 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-06-08 11:37:44,066 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-06-08 11:37:44,071 - root - INFO - Loaded extension: cogs.events.errors
+2025-06-08 11:37:44,076 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-06-08 11:37:44,081 - root - INFO - Loaded extension: cogs.commands.fun
+2025-06-08 11:37:44,084 - root - INFO - Loaded extension: cogs.commands.project
+2025-06-08 11:37:44,084 - root - ERROR - Failed to load extension cogs.commands..utils.owner: No module named 'cogs.commands.'
+2025-06-08 11:37:44,088 - root - INFO - Loaded extension: cogs.commands.misc
+2025-06-08 11:37:44,184 - root - INFO - Loaded extension: cogs.commands.images_commands
+2025-06-08 11:37:44,184 - root - INFO - ----------------------------
+2025-06-08 11:37:50,541 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:37:50,543 - discord.client - INFO - logging in using static token
+2025-06-08 11:37:51,677 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 0016062034aa47eef2c5e79d0c3b8d1e).
+2025-06-08 11:37:53,704 - root - INFO - Logged as Fermi
+2025-06-08 11:37:53,705 - root - INFO - -----LOADING EXTENSIONS-----
+2025-06-08 11:37:53,708 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-06-08 11:37:53,709 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-06-08 11:37:53,711 - root - INFO - Loaded extension: cogs.events.errors
+2025-06-08 11:37:53,713 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-06-08 11:37:53,715 - root - INFO - Loaded extension: cogs.commands.fun
+2025-06-08 11:37:53,716 - root - INFO - Loaded extension: cogs.commands.project
+2025-06-08 11:37:53,719 - root - INFO - Loaded extension: cogs.commands.utils.owner
+2025-06-08 11:37:53,720 - root - INFO - Loaded extension: cogs.commands.misc
+2025-06-08 11:37:53,791 - root - INFO - Loaded extension: cogs.commands.images_commands
+2025-06-08 11:37:53,791 - root - INFO - ----------------------------
+2025-06-08 11:40:06,675 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:40:06,678 - discord.client - INFO - logging in using static token
+2025-06-08 11:40:07,683 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 2276e8cd22025e23c61c7376bbc46956).
+2025-06-08 11:40:09,715 - root - INFO - Logged as Fermi
+2025-06-08 11:40:09,716 - root - INFO - -----LOADING EXTENSIONS-----
+2025-06-08 11:40:09,718 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-06-08 11:40:09,720 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-06-08 11:40:09,721 - root - INFO - Loaded extension: cogs.events.errors
+2025-06-08 11:40:09,724 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-06-08 11:40:09,726 - root - INFO - Loaded extension: cogs.commands.fun
+2025-06-08 11:40:09,727 - root - INFO - Loaded extension: cogs.commands.project
+2025-06-08 11:40:09,729 - root - INFO - Loaded extension: cogs.commands.utils.owner
+2025-06-08 11:40:09,732 - root - INFO - Loaded extension: cogs.commands.misc
+2025-06-08 11:40:09,803 - root - INFO - Loaded extension: cogs.commands.images_commands
+2025-06-08 11:40:09,806 - root - INFO - Loaded extension: cogs.commands.utils.test
+2025-06-08 11:40:09,806 - root - INFO - ----------------------------
+2025-06-08 11:40:49,253 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:40:49,258 - discord.client - INFO - logging in using static token
+2025-06-08 11:40:50,334 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: ba8eeeeda69e051e47e73f5db61660ca).
+2025-06-08 11:40:52,376 - root - INFO - Logged as Fermi
+2025-06-08 11:40:52,377 - root - INFO - -----LOADING EXTENSIONS-----
+2025-06-08 11:40:52,379 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-06-08 11:40:52,381 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-06-08 11:40:52,382 - root - INFO - Loaded extension: cogs.events.errors
+2025-06-08 11:40:52,384 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-06-08 11:40:52,386 - root - INFO - Loaded extension: cogs.commands.fun
+2025-06-08 11:40:52,387 - root - INFO - Loaded extension: cogs.commands.project
+2025-06-08 11:40:52,389 - root - INFO - Loaded extension: cogs.commands.utils.owner
+2025-06-08 11:40:52,391 - root - INFO - Loaded extension: cogs.commands.misc
+2025-06-08 11:40:52,460 - root - INFO - Loaded extension: cogs.commands.images_commands
+2025-06-08 11:40:52,463 - root - INFO - Loaded extension: cogs.commands.utils.test
+2025-06-08 11:40:52,463 - root - INFO - ----------------------------
+2025-06-08 11:42:03,153 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:42:03,156 - discord.client - INFO - logging in using static token
+2025-06-08 11:42:04,460 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 91c9bb361dfcdd334479eba115ad9b04).
+2025-06-08 11:42:06,488 - root - INFO - Logged as Fermi
+2025-06-08 11:42:06,489 - root - INFO - -----LOADING EXTENSIONS-----
+2025-06-08 11:42:06,492 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-06-08 11:42:06,495 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-06-08 11:42:06,497 - root - INFO - Loaded extension: cogs.events.errors
+2025-06-08 11:42:06,499 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-06-08 11:42:06,501 - root - INFO - Loaded extension: cogs.commands.fun
+2025-06-08 11:42:06,503 - root - INFO - Loaded extension: cogs.commands.project
+2025-06-08 11:42:06,505 - root - INFO - Loaded extension: cogs.commands.utils.owner
+2025-06-08 11:42:06,507 - root - INFO - Loaded extension: cogs.commands.misc
+2025-06-08 11:42:06,592 - root - INFO - Loaded extension: cogs.commands.images_commands
+2025-06-08 11:42:06,595 - root - INFO - Loaded extension: cogs.commands.utils.test
+2025-06-08 11:42:06,596 - root - INFO - ----------------------------
+2025-06-08 11:42:30,721 - root - WARNING - -----------------------NEW SESSION-----------------------
+2025-06-08 11:42:30,724 - discord.client - INFO - logging in using static token
+2025-06-08 11:42:31,735 - discord.gateway - INFO - Shard ID None has connected to Gateway (Session ID: 87257800a3a86a29006cfa69f9956bcf).
+2025-06-08 11:42:33,775 - root - INFO - Logged as Fermi
+2025-06-08 11:42:33,776 - root - INFO - -----LOADING EXTENSIONS-----
+2025-06-08 11:42:33,779 - root - INFO - Loaded extension: cogs.commands.roblox
+2025-06-08 11:42:33,781 - root - INFO - Loaded extension: cogs.commands.main_commands
+2025-06-08 11:42:33,782 - root - INFO - Loaded extension: cogs.events.errors
+2025-06-08 11:42:33,785 - root - INFO - Loaded extension: cogs.commands.moderation
+2025-06-08 11:42:33,787 - root - INFO - Loaded extension: cogs.commands.fun
+2025-06-08 11:42:33,788 - root - INFO - Loaded extension: cogs.commands.project
+2025-06-08 11:42:33,790 - root - INFO - Loaded extension: cogs.commands.utils.owner
+2025-06-08 11:42:33,792 - root - INFO - Loaded extension: cogs.commands.misc
+2025-06-08 11:42:33,859 - root - INFO - Loaded extension: cogs.commands.images_commands
+2025-06-08 11:42:33,861 - root - INFO - Loaded extension: cogs.commands.utils.test
+2025-06-08 11:42:33,862 - root - INFO - ----------------------------

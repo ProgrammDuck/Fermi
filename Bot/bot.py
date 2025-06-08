@@ -1,8 +1,19 @@
 # ⁡⁢⁣⁡⁢⁣⁡⁢⁡⁢⁣⁣𝗶𝗺𝗽𝗼𝗿𝘁 𝗹𝗶𝗯𝘀⁡
 import discord
 from discord.ext import commands
+
 import os
 import logging
+
+from dotenv import load_dotenv
+
+from embeds import scemb, eremb
+
+# ⁡⁢⁣⁣.𝗲𝗻𝘃⁡
+load_dotenv('.env')
+token = os.getenv("TOKEN")
+prefix = os.getenv("PREFIX")
+
 
 load_cogs = [
     'cogs.commands.roblox',
@@ -11,19 +22,11 @@ load_cogs = [
     'cogs.commands.moderation',
     'cogs.commands.fun',
     'cogs.commands.project',
-    'cogs.commands.owner',
+    'cogs.commands.utils.owner',
     'cogs.commands.misc',
-    'cogs.commands.images_commands'
+    'cogs.commands.images_commands',
+    'cogs.commands.utils.test'
 ]
-
-scemb = discord.Embed(
-    title='✅ | Success',
-    colour=discord.Colour.green()
-)
-eremb = discord.Embed(
-    title='❌ | Error',
-    colour=discord.Colour.red()
-)
 
 def main():
     logging.basicConfig(
@@ -37,7 +40,7 @@ def main():
     logging.warning('-----------------------NEW SESSION-----------------------')
     intents = discord.Intents.all()
     intents.message_content = True
-    bot = commands.Bot('&', help_command=None, intents=intents, case_insensitive=True)
+    bot = commands.Bot(prefix, help_command=None, intents=intents, case_insensitive=True)
 
     @bot.event
     async def on_ready():
@@ -53,5 +56,5 @@ def main():
                 logging.error(f'Failed to load extension {cog}: {e}')
         logging.info('----------------------------')
         
-    bot.run(str(os.getenv('DISCORD_TOKEN')))
+    bot.run(token)
 main()

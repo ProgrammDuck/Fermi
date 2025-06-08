@@ -5,14 +5,7 @@ import random
 import logging
 import asyncio
 
-scemb = discord.Embed(
-    title='✅ | Success',
-    colour=discord.Colour.green()
-)
-eremb = discord.Embed(
-    title='❌ | Error',
-    colour=discord.Colour.red()
-)
+from embeds import scemb, eremb
 
 class fun(commands.Cog):
     def __init__(self, bot):
