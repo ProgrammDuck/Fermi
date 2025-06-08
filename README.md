@@ -1,4 +1,4 @@
-# Fermif
+# Fermi
 Discord python bot.
 
 ## Description
