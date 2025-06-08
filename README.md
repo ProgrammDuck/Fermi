@@ -1,8 +1,8 @@
-# RNPPS-Bot
+# Fermi
 Discord python bot.
 
 ## Description
-Proker is a private bot made just for fun. There are many fun commands here. There are also commands for moderation. The bot will be installed on a physical server on May 2, 2025.
+Fermi is a private bot made just for fun. There are many fun commands here. There are also commands for moderation. The bot will be installed on a physical server on May 2, 2025.
 
 ## Project Structure
 
