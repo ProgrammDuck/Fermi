@@ -7,3 +7,4 @@ __pycache__/
 # === LOGS ===
 bot_logs.log
 *.log
+.venv/
