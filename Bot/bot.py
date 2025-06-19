@@ -5,6 +5,7 @@ from discord.ext import commands
 import os
 import logging
 
+
 from dotenv import load_dotenv
 
 from Bot.embeds import scemb, eremb
@@ -40,6 +41,7 @@ def main():
     logging.warning('-----------------------NEW SESSION-----------------------')
     intents = discord.Intents.all()
     intents.message_content = True
+    intents.moderation = True
     bot = commands.Bot(prefix, help_command=None, intents=intents, case_insensitive=True)
 
     @bot.event
