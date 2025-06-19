@@ -4,7 +4,7 @@ from discord.ext import commands
 import logging
 import datetime
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class moderation(commands.Cog):
     def __init__(self, bot):

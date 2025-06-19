@@ -6,7 +6,7 @@ import aiohttp
 from bs4 import BeautifulSoup
 import random
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class images_commands(commands.Cog):
     def __init__(self, bot):

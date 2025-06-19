@@ -5,7 +5,7 @@ from discord.ui import Button, View
 import math
 import logging
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class main(commands.Cog):
     def __init__(self, bot):

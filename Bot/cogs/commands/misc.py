@@ -4,7 +4,7 @@ from discord.ext import commands
 
 import logging
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class misc(commands.Cog):
     def __init__(self, bot):

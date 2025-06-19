@@ -5,7 +5,7 @@ import random
 import logging
 import asyncio
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class fun(commands.Cog):
     def __init__(self, bot):

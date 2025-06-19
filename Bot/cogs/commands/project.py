@@ -3,7 +3,7 @@ from discord.ext import commands
 from discord.ui import Button, View
 import logging
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class project(commands.Cog):
     def __init__(self, bot):

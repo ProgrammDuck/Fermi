@@ -5,8 +5,7 @@ import aiohttp
 import os
 import logging
 
-from embeds import scemb, eremb
-
+from Bot.embeds import scemb, eremb
 
 
 class roblox(commands.Cog):

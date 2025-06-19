@@ -1,4 +1,4 @@
-# ⁡⁢⁣⁡⁢⁣⁡⁢⁡⁢⁣⁣𝗶𝗺𝗽𝗼𝗿𝘁 𝗹𝗶𝗯𝘀⁡
+# 𝗺𝗽𝗼𝗿𝘁 𝗹𝗶𝗯s
 import discord
 from discord.ext import commands
 
@@ -7,9 +7,9 @@ import logging
 
 from dotenv import load_dotenv
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
-# ⁡⁢⁣⁣.𝗲𝗻𝘃⁡
+# 𝗲𝗻𝘃
 load_dotenv()
 token = os.getenv("TOKEN")
 prefix = os.getenv("PREFIX")
