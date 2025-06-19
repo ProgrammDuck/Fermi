@@ -45,7 +45,11 @@ def main():
     @bot.event
     async def on_ready():
         logging.info(f'Logged as {bot.user.name}')
-        await bot.change_presence(activity=discord.Game(f'{bot.command_prefix}Help | ProgrammDuck'), status=discord.Status.idle)
+
+        await bot.change_presence(
+            activity=discord.Game(f'{bot.command_prefix}Help | ProgrammDuck'),
+            status=discord.Status.idle
+        )
 
         logging.info('-----LOADING EXTENSIONS-----')
         for cog in load_cogs:

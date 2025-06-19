@@ -12,8 +12,7 @@ class images_commands(commands.Cog):
     def __init__(self, bot):
         self.bot: commands.Bot = bot
         self.logger = logging.getLogger(__name__)
-        
-    
+
     @commands.hybrid_command('meow', help='Gets random number of your arguments.')
     @commands.cooldown(1, 10, commands.BucketType.user)
     async def meow(self, ctx):
