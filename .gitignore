@@ -4,6 +4,8 @@ __pycache__/
 # === CONFIGS AND SECRETS ===
 .env
 *.idea
+.idea
+
 
 # === LOGS ===
 bot_logs.log
