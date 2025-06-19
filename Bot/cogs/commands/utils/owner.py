@@ -3,14 +3,14 @@ from discord.ext import commands
 from discord.ui import Button, View
 import logging
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
 
 class owner(commands.Cog):
     def __init__(self, bot):
         self.bot: commands.Bot = bot
         self.logger = logging.getLogger(__name__)
     
-    #⁡⁢⁣⁣---𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀---⁡
+    #---𝗖𝗼𝗺𝗺𝗮𝗻𝗱𝘀---
     @commands.command('delete_message', hidden=True)
     @commands.is_owner()
     async def delete_message(self, ctx, message:discord.Message):

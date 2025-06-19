@@ -1,9 +1,9 @@
 import discord
 from discord.ext import commands
-from discord.errors import Forbidden
 import logging
 
-from embeds import scemb, eremb
+from Bot.embeds import scemb, eremb
+
 
 
 
